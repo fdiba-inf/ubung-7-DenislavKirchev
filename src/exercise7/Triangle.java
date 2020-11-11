@@ -21,7 +21,7 @@ public class Triangle {
     public static void printLine(int start, int end) {
       String spaces = "";
         for (start = 1; start <= end; start++) {
-          if(start = end){
+          if(start == end){
             System.out.print(start);
           }else{
             spaces += " ";
