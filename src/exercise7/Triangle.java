@@ -19,8 +19,15 @@ public class Triangle {
     }
 
     public static void printLine(int start, int end) {
+      String spaces = "";
         for (start = 1; start <= end; start++) {
-            System.out.print(start+" ");            
+          if(start = end){
+            System.out.print(start);
+          }else{
+            spaces += " "
+            System.out.print(start);
+          }
+                        
         }
         System.out.println();
     }
