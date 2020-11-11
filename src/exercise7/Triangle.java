@@ -8,7 +8,7 @@ public class Triangle {
 
         System.out.print("Enter n: ");
         int n = input.nextInt();
-        System.out.print("\n");
+        
         for (int line = 1; line <= n; line++) {
             printLine(1, line);
         }
@@ -24,10 +24,5 @@ public class Triangle {
         System.out.print("\n");
     }
 
-    public static void printUnderLine(int start, int end) {
-        for (start = end-1; start > 0; start--) {
-            System.out.print(start+" ");            
-        }
-        System.out.print("\n");
-    }
+    
 }

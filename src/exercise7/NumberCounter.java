@@ -24,7 +24,12 @@ public class NumberCounter {
     }
 
     public static int countNumberOccurrences(int number, int[] numbers) {
-        // Implement method
-        return 0;
+        int count = 0;
+        for(int i = 0; i <= numbers.length; i++){
+          if(i==number){
+            count++;
+          }
+        }
+        return count;
     }
 }
