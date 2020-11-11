@@ -22,7 +22,7 @@ public class NumberCounter {
 
         int numberOccurrences = 0;
         // Call method
-        countNumberOccurrences(number,numbers) = numberOccurrences;
+        numberOccurrences = countNumberOccurrences(number,numbers); 
         System.out.println("Number occurrences: " + numberOccurrences);
     }
 
