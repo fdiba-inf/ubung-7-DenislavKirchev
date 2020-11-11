@@ -24,8 +24,8 @@ public class Triangle {
           if(start = end){
             System.out.print(start);
           }else{
-            spaces += " "
-            System.out.print(start);
+            spaces += " ";
+            System.out.print(start + spaces);
           }
                         
         }
