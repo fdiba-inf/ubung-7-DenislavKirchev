@@ -13,7 +13,7 @@ public class Triangle {
             printLine(1, line);
         }
         for (int line = n-1; line > 0; line--) {
-            printLine(n-1, line);
+            printLine(1, line);
         }
     }
 
