@@ -8,6 +8,7 @@ public class Triangle {
 
         System.out.print("Enter n: ");
         int n = input.nextInt();
+        System.out.println();
         
         for (int line = 1; line <= n; line++) {
             printLine(1, line);
