@@ -22,7 +22,7 @@ public class Triangle {
         for (start = 1; start <= end; start++) {
             System.out.print(start+" ");            
         }
-        System.out.print("\n");
+        System.out.println();
     }
 
     
