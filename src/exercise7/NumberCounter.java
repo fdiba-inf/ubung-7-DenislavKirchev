@@ -29,7 +29,7 @@ public class NumberCounter {
     public static int countNumberOccurrences(int number, int[] numbers) {
         int count = 0;
         for(int i = 0; i <= numbers.length; i++){
-          if(i==number){
+          if(numbers[i]==number){
             count++;
           }
         }
