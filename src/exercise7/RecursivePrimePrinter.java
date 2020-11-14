@@ -31,14 +31,15 @@ public class RecursivePrimePrinter {
     }
 
     public static boolean isPrime(int n) {
-      for(int divider = 2;divider<=n;divider++){
-        if(n%divider!=0){
-          break;
-        }else{
-          return false;
+      int divider = 2;
+      int maxDivider = (int) Math.sqrt(n);
+      boolean prime = true;
+      while(prime && (divider <= maxDivider)){
+        if (n % divider == 0){
+          prime = false;
         }
+      divider++;
       }
-      // Implement method
-      return true;
+      return prime;
     }
 }
